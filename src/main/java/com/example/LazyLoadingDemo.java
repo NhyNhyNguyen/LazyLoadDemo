@@ -19,6 +19,7 @@ public class LazyLoadingDemo {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        System.out.println("=============== Case lazy load not error with enable_lazy_load_no_trans is true or false ===============");
         caseLazyLoadNotError(productId);
     }
 
